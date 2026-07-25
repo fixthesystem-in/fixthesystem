@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FixTheSystem.in</title>
+
+    <meta name="description" content="A public repository documenting Indian governmental systems, identifying inefficiencies, researching global best practices, and proposing transparent reforms.">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Inter,Segoe UI,Arial,sans-serif;
+            background:#f7f9fc;
+            color:#1e293b;
+            line-height:1.6;
+        }
+
+        header{
+            background:#0f172a;
+            color:white;
+            padding:22px 8%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            font-size:28px;
+            font-weight:700;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+            opacity:.9;
+        }
+
+        nav a:hover{
+            opacity:1;
+        }
+
+        .hero{
+            padding:90px 8%;
+            display:grid;
+            grid-template-columns:1.2fr .8fr;
+            gap:60px;
+            align-items:center;
+        }
+
+        .hero h1{
+            font-size:52px;
+            margin-bottom:25px;
+        }
+
+        .hero p{
+            font-size:19px;
+            color:#475569;
+            margin-bottom:35px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:14px 24px;
+            border-radius:8px;
+            text-decoration:none;
+            font-weight:600;
+        }
+
+        .primary{
+            background:#2563eb;
+            color:white;
+        }
+
+        .secondary{
+            margin-left:15px;
+            background:white;
+            border:1px solid #cbd5e1;
+            color:#0f172a;
+        }
+
+        .card{
+            background:white;
+            border-radius:12px;
+            padding:30px;
+            box-shadow:0 15px 35px rgba(0,0,0,.08);
+        }
+
+        .card h3{
+            margin-bottom:20px;
+        }
+
+        .section{
+            padding:70px 8%;
+        }
+
+        .section h2{
+            text-align:center;
+            margin-bottom:45px;
+            font-size:36px;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .feature{
+            background:white;
+            border-radius:10px;
+            padding:30px;
+            border:1px solid #e2e8f0;
+        }
+
+        .feature h3{
+            margin-bottom:15px;
+        }
+
+        .departments{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+        }
+
+        .department{
+            background:white;
+            padding:22px;
+            border-radius:10px;
+            border-left:5px solid #2563eb;
+        }
+
+        .department h4{
+            margin-bottom:10px;
+        }
+
+        .process{
+            margin-top:15px;
+            color:#64748b;
+            font-size:15px;
+        }
+
+        .timeline{
+            max-width:900px;
+            margin:auto;
+        }
+
+        .step{
+            background:white;
+            margin-bottom:18px;
+            padding:24px;
+            border-left:6px solid #2563eb;
+            border-radius:8px;
+        }
+
+        footer{
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding:40px;
+            margin-top:70px;
+        }
+
+        small{
+            color:#94a3b8;
+        }
+
+        @media(max-width:900px){
+
+        .hero{
+        grid-template-columns:1fr;
+        }
+
+        .hero h1{
+        font-size:40px;
+        }
+
+        nav{
+        display:none;
+        }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            FixTheSystem.in
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#mission">Mission</a>
+            <a href="#departments">Departments</a>
+            <a href="#process">Methodology</a>
+            <a href="#">Contribute</a>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+
+        <div>
+
+            <h1>
+Building a Better Government Through Documentation & Transparent Reform
+</h1>
+
+            <p>
+
+                FixTheSystem.in is an open public knowledge repository dedicated to documenting how Indian governmental systems currently work, identifying inefficiencies, researching successful international practices, and proposing practical reforms that improve transparency,
+                efficiency, accountability, and public service delivery.
+
+            </p>
+
+            <a href="#" class="btn primary">
+Browse Repository
+</a>
+
+            <a href="#" class="btn secondary">
+Contribute Research
+</a>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Repository Structure</h3>
+
+            <p><strong>Department</strong></p>
+            ↓
+
+            <p><strong>Current Process Documentation</strong></p>
+            ↓
+
+            <p><strong>Pain Points & Corruption Risks</strong></p>
+            ↓
+
+            <p><strong>International Research</strong></p>
+            ↓
+
+            <p><strong>Proposed Reform</strong></p>
+            ↓
+
+            <p><strong>Implementation Roadmap</strong></p>
+
+        </div>
+
+    </section>
+
+    <section class="section" id="mission">
+
+        <h2>Mission</h2>
+
+        <div class="grid">
+
+            <div class="feature">
+                <h3>📚 Document Reality</h3>
+
+                <p>
+                    Create accurate documentation explaining how every public process currently works.
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <h3>🔍 Identify Problems</h3>
+
+                <p>
+                    Highlight unnecessary complexity, delays, lack of accountability, and opportunities for corruption.
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <h3>🌍 Research the World</h3>
+
+                <p>
+                    Study systems implemented successfully in countries across Europe, North America, East Asia, and elsewhere.
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <h3>💡 Propose Better Systems</h3>
+
+                <p>
+                    Design practical, technology-driven improvements that are transparent, scalable, and citizen-centric.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section" id="departments">
+
+        <h2>Departments</h2>
+
+        <div class="departments">
+
+            <div class="department">
+                <h4>Infrastructure</h4>
+                <div class="process">
+                    Roads • Bridges • Public Works • Contracts
+                </div>
+            </div>
+
+            <div class="department">
+                <h4>Transport</h4>
+                <div class="process">
+                    Railways • Roads • Metro • Logistics
+                </div>
+            </div>
+
+            <div class="department">
+                <h4>Healthcare</h4>
+                <div class="process">
+                    Hospitals • Insurance • Public Health
+                </div>
+            </div>
+
+            <div class="department">
+                <h4>Education</h4>
+                <div class="process">
+                    Schools • Universities • Grants
+                </div>
+            </div>
+
+            <div class="department">
+                <h4>Municipal Governance</h4>
+                <div class="process">
+                    Property • Water • Sanitation • Licensing
+                </div>
+            </div>
+
+            <div class="department">
+                <h4>Digital Government</h4>
+                <div class="process">
+                    Citizen Services • Online Portals • Automation
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section" id="process">
+
+        <h2>Methodology</h2>
+
+        <div class="timeline">
+
+            <div class="step">
+                <h3>1. Document Current System</h3>
+
+                <p>
+                    Understand the complete workflow including every office, approval, document, and stakeholder involved.
+                </p>
+
+            </div>
+
+            <div class="step">
+
+                <h3>2. Identify Bottlenecks</h3>
+
+                <p>
+                    Measure delays, unnecessary approvals, duplicated work, opportunities for bribery, and lack of transparency.
+                </p>
+
+            </div>
+
+            <div class="step">
+
+                <h3>3. Compare Globally</h3>
+
+                <p>
+                    Research how countries with highly efficient public administration solve similar problems.
+                </p>
+
+            </div>
+
+            <div class="step">
+
+                <h3>4. Design Better Processes</h3>
+
+                <p>
+                    Recommend simplified workflows, digital-first services, automation, audit trails, public dashboards, and policy improvements.
+                </p>
+
+            </div>
+
+            <div class="step">
+
+                <h3>5. Open Public Review</h3>
+
+                <p>
+                    Publish proposals for constructive feedback, expert discussion, and continuous improvement.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h2>FixTheSystem.in</h2>
+
+        <p>
+            Open Documentation • Research • Public Collaboration • Better Governance
+        </p>
+
+        <br>
+
+        <small>
+
+This project aims to encourage evidence-based discussion about improving public administration. It documents systems, analyzes processes, and proposes reforms based on research and comparative governance studies.
+
+</small>
+
+    </footer>
+
+</body>
+
+</html>
